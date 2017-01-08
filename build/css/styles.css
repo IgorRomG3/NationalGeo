@@ -1,5 +1,5 @@
 header {
-  padding-bottom: 40px;
+  margin-bottom: 50px;
 }
 header form {
   height: 48px;
@@ -116,14 +116,25 @@ nav:before {
 nav ul {
   position: relative;
 }
-nav ul .nav-list {
+nav ul li {
   margin-top: 30px;
   position: relative;
   display: inline-block;
   width: 12%;
   text-align: center;
 }
-nav ul .nav-list:before {
+nav ul li a {
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  font-weight: 600;
+  color: #555;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #fdd843;
+  text-decoration: none;
+}
+nav ul li a:before {
   content: "";
   position: absolute;
   top: -40px;
@@ -134,74 +145,58 @@ nav ul .nav-list:before {
   background-image: url(../../images/sprite.png);
   background-position: 2px 0;
 }
-nav ul .nav-list a {
-  font-family: "Myriad Pro";
-  font-size: 16px;
-  font-weight: 600;
-  color: #555;
-  text-decoration: none;
-}
-nav ul .nav-list a:hover {
-  color: #fdd843;
-}
-nav ul li:nth-child(1) {
+nav ul li .nav-list-one {
   text-transform: uppercase;
 }
-nav ul li:nth-child(1):before {
+nav ul li .nav-list-one:before {
   background-position: 2px 0;
 }
-nav ul li:nth-child(1):hover:before {
+nav ul li .nav-list-one:hover:before {
   background-position: 32px 0;
 }
-nav ul li:nth-child(2):before {
+nav ul li .nav-list-two:before {
   background-position: 2px -30px;
 }
-nav ul li:nth-child(2):hover:before {
+nav ul li .nav-list-two:hover:before {
   background-position: 32px -30px;
 }
-nav ul li:nth-child(3):before {
+nav ul li .nav-list-three:before {
   background-position: 2px -60px;
 }
-nav ul li:nth-child(3):hover:before {
+nav ul li .nav-list-three:hover:before {
   background-position: 32px -60px;
 }
-nav ul li:nth-child(4):before {
+nav ul li .nav-list-four:before {
   background-position: 2px -90px;
 }
-nav ul li:nth-child(4):hover:before {
+nav ul li .nav-list-four:hover:before {
   background-position: 32px -90px;
 }
-nav ul li:nth-child(5):before {
+nav ul li .nav-list-five:before {
   background-position: 2px -120px;
 }
-nav ul li:nth-child(5):hover:before {
+nav ul li .nav-list-five:hover:before {
   background-position: 32px -120px;
 }
-nav ul li:nth-child(6):before {
+nav ul li .nav-list-six:before {
   height: 28px;
   background-position: 2px -150px;
 }
-nav ul li:nth-child(6):hover:before {
+nav ul li .nav-list-six:hover:before {
   background-position: 32px -150px;
 }
-nav ul li:nth-child(7):before {
+nav ul li .nav-list-seven:before {
   background-position: 2px -180px;
 }
-nav ul li:nth-child(7):hover:before {
+nav ul li .nav-list-seven:hover:before {
   background-position: 32px -180px;
 }
-nav ul li:nth-child(8):before {
+nav ul li .nav-list-eight:before {
   height: 30px;
   background-position: 0px -206px;
 }
-nav ul li:nth-child(8):hover:before {
+nav ul li .nav-list-eight:hover:before {
   background-position: 30px -206px;
-}
-nav ul li:nth-child(9):before {
-  background-position: 2px -240px;
-}
-nav ul li:nth-child(9):hover:before {
-  background-position: 32px -240px;
 }
 * {
   margin: 0;
