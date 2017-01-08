@@ -1,0 +1,222 @@
+header {
+  padding-bottom: 40px;
+}
+header form {
+  height: 48px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid #e8e8e8;
+  border-radius: 1px;
+  background-color: #fff;
+}
+header form .header-input:before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background: url(../../images/sprite.png) no-repeat;
+  background-position: -25px -618px;
+}
+header form .header-input input[id=headsearch] {
+  width: inherit;
+  height: 48px;
+  position: relative;
+  border: 0;
+  background-color: transparent;
+  color: #e7e7e7;
+  font-family: "Myriad Pro";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  text-indent: 20px;
+}
+header form select[name=categories] {
+  margin-top: 10px;
+  height: 25px;
+  background-color: transparent;
+  border: 0;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  color: #cacaca;
+  font-family: "Myriad Pro";
+  font-size: 15px;
+  font-weight: 400;
+}
+header form .header-button {
+  margin: 10px 0 0 -10px;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background-color: transparent;
+  background: url(../../images/sprite.png) no-repeat;
+  background-position: -25px -704px;
+}
+header .log-in-out li {
+  margin-top: 5px;
+}
+header .log-in-out .sigh-up {
+  margin-top: 20px;
+  position: relative;
+  background-color: transparent;
+  border: 0;
+  color: #999;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: 400;
+}
+header .log-in-out .sigh-up:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  width: 18px;
+  height: 16px;
+  background: url(../../images/sprite.png) no-repeat;
+  background-position: -36px -540px;
+}
+header .log-in-out li:nth-child(2) {
+  border-left: 1px solid #eaeaea;
+}
+header .log-in-out li:nth-child(2) .log-in {
+  margin-top: 20px;
+  position: relative;
+  background-color: transparent;
+  border: 0;
+  color: #999;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: 400;
+}
+header .log-in-out li:nth-child(2) .log-in:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  width: 18px;
+  height: 16px;
+  background: url(../../images/sprite.png) no-repeat;
+  background-position: -36px -540px;
+}
+header .log-in-out li:nth-child(2) .log-in:before {
+  left: 12px;
+  background-position: -19px -540px;
+}
+nav {
+  position: relative;
+  margin-right: -15px;
+}
+nav:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #777;
+}
+nav ul {
+  position: relative;
+}
+nav ul .nav-list {
+  margin-top: 30px;
+  position: relative;
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+}
+nav ul .nav-list:before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 40px;
+  width: 33px;
+  height: 24px;
+  background-color: #fbfbfb;
+  background-image: url(../../images/sprite.png);
+  background-position: 2px 0;
+}
+nav ul .nav-list a {
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  font-weight: 600;
+  color: #555;
+  text-decoration: none;
+}
+nav ul .nav-list a:hover {
+  color: #fdd843;
+}
+nav ul li:nth-child(1) {
+  text-transform: uppercase;
+}
+nav ul li:nth-child(1):before {
+  background-position: 2px 0;
+}
+nav ul li:nth-child(1):hover:before {
+  background-position: 32px 0;
+}
+nav ul li:nth-child(2):before {
+  background-position: 2px -30px;
+}
+nav ul li:nth-child(2):hover:before {
+  background-position: 32px -30px;
+}
+nav ul li:nth-child(3):before {
+  background-position: 2px -60px;
+}
+nav ul li:nth-child(3):hover:before {
+  background-position: 32px -60px;
+}
+nav ul li:nth-child(4):before {
+  background-position: 2px -90px;
+}
+nav ul li:nth-child(4):hover:before {
+  background-position: 32px -90px;
+}
+nav ul li:nth-child(5):before {
+  background-position: 2px -120px;
+}
+nav ul li:nth-child(5):hover:before {
+  background-position: 32px -120px;
+}
+nav ul li:nth-child(6):before {
+  height: 28px;
+  background-position: 2px -150px;
+}
+nav ul li:nth-child(6):hover:before {
+  background-position: 32px -150px;
+}
+nav ul li:nth-child(7):before {
+  background-position: 2px -180px;
+}
+nav ul li:nth-child(7):hover:before {
+  background-position: 32px -180px;
+}
+nav ul li:nth-child(8):before {
+  height: 30px;
+  background-position: 0px -206px;
+}
+nav ul li:nth-child(8):hover:before {
+  background-position: 30px -206px;
+}
+nav ul li:nth-child(9):before {
+  background-position: 2px -240px;
+}
+nav ul li:nth-child(9):hover:before {
+  background-position: 32px -240px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 39px;
+  background-color: #fbfbfb;
+}
+input,
+select,
+textarea,
+button {
+  outline: none;
+}
+ul {
+  list-style: none;
+}
