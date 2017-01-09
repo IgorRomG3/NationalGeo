@@ -555,7 +555,7 @@ main .article .article-header .name p {
   font-weight: 400;
 }
 main .article .article-header .rating {
-  margin-top: 10px;
+  margin: 10px 7px 0 0;
   float: right;
 }
 main .article .article-header .rating .stars {
@@ -575,4 +575,416 @@ main .article p {
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
+}
+aside {
+  height: 895px;
+}
+aside .popular {
+  margin-bottom: 7px;
+  width: 100%;
+  height: 32px;
+  position: relative;
+  border: 1px solid #eee;
+  background-color: #fff;
+  text-indent: 30px;
+}
+aside .popular:before {
+  content: "";
+  position: absolute;
+  left: 3%;
+  top: 30%;
+  width: 16px;
+  height: 16px;
+  background-image: url(../../images/sprite.png);
+  background-position: 0 -540px;
+}
+aside .news:before {
+  background-position: 0 -540px;
+}
+aside .video {
+  margin-top: 18px;
+}
+aside .video:before {
+  background-position: -19px -559px;
+}
+aside .student:before {
+  background-position: -38px -558px;
+}
+aside h5 {
+  color: #777777;
+  font-family: "Myriad Pro";
+  font-size: 13px;
+  font-weight: 600;
+}
+aside h6 {
+  margin-left: 3px;
+  padding-bottom: 5px;
+  width: 96%;
+  border-bottom: 1px solid #eeeeee;
+  color: #777777;
+  font-family: "Myriad Pro";
+  font-size: 12px;
+  font-weight: 600;
+  text-indent: 4px;
+}
+aside .article-header {
+  margin-bottom: 10px;
+  height: 148px;
+  border: 1px solid #eeeeee;
+}
+aside .article-header .photo {
+  margin: 5px 3px 0 3px;
+  width: 97%;
+  height: 100px;
+  background-size: cover;
+}
+aside .article-header .snake {
+  background-image: url(../../images/snake-pic.png);
+}
+aside .article-header .frog {
+  background-image: url(../../images/frog-pic.png);
+}
+aside .article-header .bird {
+  background-image: url(../../images/bird-pic.png);
+}
+aside .article-header .mandarin {
+  background-image: url(../../images/frog-2-pic.png);
+}
+aside .article-header .metinees {
+  height: 58px;
+  background-image: url(../../images/student-pic.png);
+}
+aside .article-header .name {
+  margin-left: 6px;
+  float: left;
+}
+aside .article-header .name h5 {
+  margin-bottom: 0;
+  color: #777777;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: 600;
+}
+aside .article-header .name p {
+  color: #a0a0a0;
+  font-family: "Myriad Pro";
+  font-size: 11px;
+  font-weight: 400;
+}
+aside .article-header p.student-descr {
+  color: #777777;
+  font-family: "Myriad Pro";
+  font-size: 11px;
+  font-weight: 400;
+}
+aside .article-header .rating {
+  margin: 10px 7px 0 0;
+  float: right;
+}
+aside .article-header .rating .stars {
+  width: 74px;
+  height: 13px;
+  background-image: url(../../images/5-stars.png);
+}
+aside .article-header .rating p {
+  color: #a0a0a0;
+  font-family: "Myriad Pro";
+  font-size: 11px;
+  font-weight: 400;
+}
+aside .article-header.min {
+  height: 111px;
+}
+aside .article-header.min .name {
+  margin-top: 55px;
+}
+aside .article-header.min .name h5 {
+  color: #fff;
+  font-family: "Myriad Pro";
+  font-size: 13px;
+  font-weight: 600;
+}
+aside .article-header.min .name p {
+  color: #fff;
+  font-family: "Myriad Pro";
+  font-size: 11px;
+  font-weight: 400;
+}
+aside .article-header.min .play-btn {
+  float: right;
+}
+aside .article-header.min .play-btn button {
+  margin: 55px 5px 0 0;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  background-color: transparent;
+  background-image: url(../../images/sprite.png);
+  background-position: -1px -667px;
+}
+aside .aside-btns {
+  margin-top: 14px;
+}
+aside .aside-btns .shopping,
+aside .aside-btns .subscriptions {
+  height: 33px;
+  position: relative;
+  border: 1px solid #eeeeee;
+}
+aside .aside-btns .shopping:before,
+aside .aside-btns .subscriptions:before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../images/sprite.png);
+}
+aside .aside-btns .shopping button,
+aside .aside-btns .subscriptions button {
+  margin-top: 5px;
+  padding: 0 6px;
+  float: right;
+  height: 19px;
+  background-color: transparent;
+  border: 0;
+  border-left: 1px solid #eeeeee;
+  color: #777777;
+  font-family: "Myriad Pro";
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+aside .aside-btns .shopping:before {
+  background-position: 0px -575px;
+}
+aside .aside-btns .subscriptions:before {
+  left: 7%;
+  background-position: -1px -600px;
+}
+section {
+  margin-bottom: 21px;
+}
+section .sect-head {
+  height: 32px;
+  position: relative;
+  border: 1px solid #eeeeee;
+  background-color: #fff;
+}
+section .sect-head:before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 1%;
+  width: 15px;
+  height: 15px;
+  background-image: url(../../images/sprite.png);
+  background-position: -37px -575px;
+}
+section .sect-head h5 {
+  float: left;
+  text-indent: 40px;
+}
+section .sect-head form {
+  margin: 5px 5px 0 0;
+  float: right;
+}
+section .sect-head form button {
+  width: 21px;
+  height: 21px;
+  border: 0;
+  background-color: transparent;
+  background-image: url(../../images/sprite.png);
+}
+section .sect-head form .arrow-wrap {
+  height: 21px;
+  float: left;
+}
+section .sect-head form .arrow-wrap button.arrow-left {
+  background-position: 0 -706px;
+}
+section .sect-head form .arrow-wrap button.arrow-right {
+  background-position: 33px -706px;
+}
+section .sect-head form .right {
+  margin-right: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #eeeeee;
+}
+section .magazines {
+  margin-top: 10px;
+  height: 200px;
+  border: 1px solid #eeeeee;
+  background-color: #fff;
+}
+section .magazines .goods {
+  margin: 3px 0 0 3px;
+  width: 98%;
+  height: 147px;
+  border: 1px solid #eeeeee;
+  background-color: #fbfbfb;
+  text-align: center;
+}
+section .magazines .goods .magzn {
+  margin: 11px 0 15px 90px;
+  width: 69px;
+  height: 100px;
+}
+section .magazines .goods .national {
+  background-image: url(../../images/mag-1.png);
+}
+section .magazines .goods .kids {
+  background-image: url(../../images/mag-2.png);
+}
+section .magazines .goods .young {
+  background-image: url(../../images/mag-3.png);
+}
+section .magazines .goods .little {
+  background-image: url(../../images/mag-4.png);
+}
+section .magazines .goods h5 {
+  margin-top: 0;
+  color: #777;
+  font-family: "Myriad Pro";
+  font-size: 13px;
+  font-weight: 600;
+}
+section .magazines .votes {
+  margin: 15px 0 0 5px;
+  float: left;
+}
+section .magazines .votes .stars {
+  width: 74px;
+  height: 12px;
+  background-image: url(../../images/5-stars.png);
+}
+section .magazines .votes p {
+  color: #a0a0a0;
+  font-family: "Myriad Pro";
+  font-size: 11px;
+  font-weight: 400;
+}
+section .magazines .section-btns {
+  margin: 16px 0 0 0px;
+  width: 104px;
+  height: 33px;
+  float: right;
+  position: relative;
+  border-top: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+section .magazines .section-btns:before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../images/plus-pic.png);
+}
+section .magazines .section-btns button {
+  margin-top: 5px;
+  padding: 0 6px;
+  float: right;
+  height: 19px;
+  background-color: transparent;
+  border: 0;
+  border-left: 1px solid #eeeeee;
+  color: #777777;
+  font-family: "Myriad Pro";
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+footer {
+  height: 70px;
+  background-color: #242424;
+}
+footer .footer-bg {
+  height: 70px;
+  background-color: #1f1f1f;
+}
+@media (min-width: 1200px) {
+  footer .footer-bg {
+    width: 1140px;
+  }
+}
+footer .contacts {
+  margin-top: 18px;
+  height: 41px;
+}
+footer .contacts form {
+  width: 80%;
+  background-color: #282828;
+  border-radius: 2px;
+  float: left;
+}
+footer .contacts form #email {
+  width: 80%;
+  height: 36px;
+  float: left;
+  border: 0;
+  background-color: transparent;
+  color: #595959;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  text-indent: 10px;
+}
+footer .contacts form .email-sub {
+  width: 20%;
+  height: 36px;
+  float: right;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17), inset 0 1px 0 1px rgba(255, 255, 255, 0.05);
+  border-radius: 5px 4px 4px 5px;
+  border: 1px solid #292929;
+  background-color: rgba(31, 31, 31, 0.6);
+  background-color: #1f1f1f;
+  text-shadow: 0 1px 0 #323232;
+  color: #848484;
+  font-family: "Myriad Pro";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+footer .contacts .networks {
+  margin-top: 7px;
+  float: right;
+}
+footer .contacts .networks li {
+  margin-right: 5px;
+  display: inline-block;
+}
+footer .rights {
+  margin-top: 25px;
+}
+footer .rights .footer-nav {
+  margin: 0;
+  text-align: right;
+}
+footer .rights .footer-nav li {
+  margin-right: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  border-right: 1px solid #777777;
+}
+footer .rights .footer-nav li a {
+  color: #bbb;
+  font-family: "Myriad Pro";
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+footer .rights .footer-nav li:last-child {
+  border: 0;
+}
+footer .rights .copyright {
+  margin-left: 180px;
+  color: #4a4a4a;
+  font-family: "Myriad Pro";
+  font-size: 12px;
+  font-weight: 400;
 }

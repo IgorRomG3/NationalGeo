@@ -1,0 +1,91 @@
+footer {
+	height: 70px;
+	background-color: #242424;
+	.footer-bg {
+		@media (min-width: 1200px) {
+			width: 1140px;
+		}
+		height: 70px;
+		background-color: #1f1f1f;
+	}
+	.contacts {
+		margin-top: 18px;
+		height: 41px;
+		form {
+			width: 80%;
+			background-color: #282828;
+			border-radius: 2px;
+			float: left;
+			#email {
+				width: 80%;
+				height: 36px;
+				float: left;
+				border: 0;
+				background-color: transparent;
+;
+				color: #595959;
+				font-family: "Myriad Pro";
+				font-size: 14px;
+				font-weight: 400;
+				font-style: italic;
+				text-indent: 10px;
+			}
+			.email-sub {
+				width: 20%;
+				height: 36px;
+				float: right;
+				box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17), inset 0 1px 0 1px rgba(255, 255, 255, 0.05);
+				border-radius: 5px 4px 4px 5px;
+				border: 1px solid #292929;
+				background-color: rgba(31, 31, 31, 0.6);
+				background-color: #1f1f1f;
+				
+				text-shadow: 0 1px 0 #323232;
+				color: #848484;
+				font-family: "Myriad Pro";
+				font-size: 13px;
+				font-weight: 600;
+				line-height: 18px;
+				text-transform: uppercase;
+			}
+		}
+		.networks {
+			margin-top: 7px;
+			float: right;
+			li {
+				margin-right: 5px;
+				display: inline-block;
+			}
+		}
+	}
+	.rights {
+		margin-top: 25px;
+		.footer-nav {
+			margin: 0;
+			text-align: right;
+			li {
+				margin-right: 10px;
+				padding-right: 10px;
+				display: inline-block;
+				border-right: 1px solid @main-gray;
+				a {
+					color: #bbb;
+					font-family: "Myriad Pro";
+					font-size: 12px;
+					font-weight: 400;
+					text-decoration: none;
+				}
+			}
+			li:last-child {
+				border: 0;
+			}
+		}
+		.copyright {
+			margin-left: 180px;
+			color: #4a4a4a;
+			font-family: "Myriad Pro";
+			font-size: 12px;
+			font-weight: 400;
+		}
+	}
+}

@@ -1,0 +1,136 @@
+section {
+	margin-bottom: 21px;
+	.sect-head {
+		height: 32px;
+		position: relative;
+		border: 1px solid @borders;
+		background-color: #fff;
+		&:before {
+			content: "";
+			position: absolute;
+			top: 25%;
+			left: 1%;
+			
+			width: 15px;
+			height: 15px;
+			
+			background-image: url(../../images/sprite.png);
+			background-position: -37px -575px;
+		}
+		h5 {
+			float: left;
+			text-indent: 40px;
+		}
+		form {
+			margin: 5px 5px 0 0;
+			float: right;
+			button {
+				width: 21px;
+				height: 21px;
+				border: 0;
+				background-color: transparent;
+				background-image: url(../../images/sprite.png);
+			}
+			.arrow-wrap {
+				height: 21px;
+				float: left;
+				button.arrow-left {
+				background-position: 0 -706px;
+				}
+				button.arrow-right {
+					background-position: 33px -706px;
+				}
+			}
+			.right {
+				margin-right: 5px;
+				padding-right: 5px;
+				border-right:  1px solid @borders;
+			}
+		}
+	}
+	.magazines {
+		margin-top: 10px;
+		height: 200px;
+		border: 1px solid @borders;
+		background-color: #fff;
+		.goods {
+			margin: 3px 0 0 3px;
+			width: 98%;
+			height: 147px;
+			border: 1px solid @borders;
+			background-color: #fbfbfb;
+			text-align: center;
+			.magzn {
+				margin: 11px 0 15px 90px;
+				width: 69px;
+				height: 100px;
+			}
+			.national {
+				background-image: url(../../images/mag-1.png);
+			}
+			.kids {
+				background-image: url(../../images/mag-2.png);
+			}
+			.young {
+				background-image: url(../../images/mag-3.png);
+			}
+			.little {
+				background-image: url(../../images/mag-4.png);
+			}
+			h5 {
+				margin-top: 0;
+				color: #777;
+				font-family: "Myriad Pro";
+				font-size: 13px;
+				font-weight: 600;
+			}
+		}
+		.votes {
+			margin: 15px 0 0 5px;
+			float: left;
+			.stars {
+				width: 74px;
+				height: 12px;
+				background-image: url(../../images/5-stars.png);
+			}
+			p {
+				color: #a0a0a0;
+				font-family: "Myriad Pro";
+				font-size: 11px;
+				font-weight: 400;
+			}
+		}
+		.section-btns {
+			margin: 16px 0 0 0px;
+			width: 104px;
+			height: 33px;
+			float: right;
+			position: relative;
+			border-top: 1px solid @borders;
+			border-left: 1px solid @borders;
+			&:before {
+			content: "";
+			position: absolute;
+			top: 15%;
+			left: 3%;
+			width: 18px;
+			height: 18px;
+			background-image: url(../../images/plus-pic.png);	
+			}
+			button {
+				margin-top: 5px;
+				padding: 0 6px;
+				float: right;
+				height: 19px;
+				background-color: transparent;
+				border: 0;
+				border-left: 1px solid @borders;
+				color: @main-gray;
+				font-family: "Myriad Pro";
+				font-size: 11px;
+				font-weight: 400;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
