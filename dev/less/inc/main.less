@@ -1,0 +1,413 @@
+main {
+	.left-navi {
+		margin-right: 5px;
+		height: 375px;
+		border-right: 1px solid @borders;
+		.left-side-nav {
+		margin-bottom: 5px;
+		height: 70px;
+		
+		border: 1px solid @borders;
+		background-color: #fff;
+		text-align: center;
+		&:hover {
+			background-color: @secondary-gray;
+			a {
+				color: #fff;
+			}
+			.list-one {
+					&:before {
+						background-position: 32px -240px;
+					}
+			}
+			.list-two {
+					&:before {
+						background-position: 32px -271px;
+					}
+			}
+			.list-three {
+					&:before {
+						background-position: 32px -300px;
+					}
+			}
+			.list-four {
+					&:before {
+						background-position: 32px -330px;
+					}
+			}
+			.list-five {
+					&:before {
+						background-position: 32px -359px;
+					}
+			}
+			.list-six {
+					&:before {
+						background-position: 32px -390px;
+					}
+			}
+			.list-seven {
+					&:before {
+						background-position: 32px -420px;
+					}
+			}
+			.list-eight {
+					&:before {
+						background-position: 32px -450px;
+					}
+			}
+			.list-nine {
+					&:before {
+						background-position: 32px -480px;
+					}
+			}
+			.list-ten {
+					&:before {
+						background-position: 32px -510px;
+					}
+			}
+		}
+		&:nth-child(even) {
+		margin-left: 5px;
+		}
+		a {
+			margin-top: 50px;
+				
+			display: block;
+			position: relative;
+			
+			color: @main-gray;
+			font-family: "Myriad Pro";
+			font-size: 12px;
+			font-weight: bold;
+			&:hover {
+			color: #fff;
+			text-decoration: none;
+			}
+			&:before {
+			content: "";
+			position: absolute;
+			top: -40px;
+			left: 30%;
+				
+			width: 33px;
+			height: 28px;
+				
+			background-image: url(../../images/sprite.png);
+			}
+		}
+		.list-one {
+			&:before {
+				background-position: 2px -240px;
+			}
+		}
+		.list-two {
+			&:before {
+				background-position: 2px -271px;
+			}
+		}
+		.list-three {
+			&:before {
+				background-position: 2px -300px;
+			}
+		}
+		.list-four {
+			&:before {
+				background-position: 2px -330px;
+			}
+		}
+		.list-five {
+			&:before {
+				background-position: 2px -359px;
+			}
+		}
+		.list-six {
+			&:before {
+				height: 28px;
+				background-position: 2px -390px;
+			}
+		}
+		.list-seven {
+			&:before {
+				background-position: 2px -420px;
+			}
+		}
+		.list-eight {
+			&:before {
+				height: 30px;
+				background-position: 2px -450px;
+			}
+		}
+		.list-nine {
+			&:before {
+				height: 30px;
+				background-position: 2px -480px;
+			}
+		}
+		.list-ten {
+			&:before {
+				height: 30px;
+				background-position: 2px -510px;
+			}
+		}
+	}
+	}
+	.video {
+		height: 375px;
+		margin-bottom: 10px;
+		.vid {
+			margin-bottom: 25px;
+			.vid-list {
+			position: relative;
+			height: 30px;
+			border: 1px solid @borders;
+			background-color: #fff;
+			text-align: center;
+			&:hover {
+				background-color: @secondary-gray;
+				a {
+					color: #fff;
+				}
+				&:after {
+					content: "";
+					position: absolute;
+					bottom: -85%;
+					left: 38%;
+					
+					border: 12px solid;
+					border-color: @secondary-gray transparent transparent transparent;
+				}
+			}
+				&:first-child {
+					text-transform: uppercase;
+				}
+				a {
+					color: @main-gray;
+					font-family: Arial;
+					font-size: 12px;
+					font-weight: 400;
+					text-decoration: none;
+				}
+			}
+		}
+		.vid-pic {
+			position: relative;
+			height: 226px;
+			background-image: url(../../images/jaguar.png);
+				.pic-switch {
+					position: absolute;
+					top: 0;
+					right: 0;
+					.pic-list {
+					width: 26px;
+					height: 30px;
+					display: inline-block;
+					background-color: @secondary-gray;
+					text-align: center;
+						&:hover {
+							background-color: @dirty-yellow;
+							a {
+								color: #fff;
+							}
+						}
+					a {
+						font-family: "Myriad Pro";
+						font-size: 16px;
+						font-weight: 600;
+						color: #ddd;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		.vid-control {
+			height: 53px;
+			border: 1px solid @borders;
+			background-color: #fff;
+			.vid-control-discr {
+				margin-left: 13px;
+				float: left;
+				h5 {
+				margin-bottom: 0;
+				color: @secondary-gray;
+				font-family: "Myriad Pro";
+				font-size: 15px;
+				font-weight: 600;
+				}
+				p {
+					color: @secondary-gray;
+					font-family: "Myriad Pro";
+					font-size: 11px;
+					font-weight: 400;
+					line-height: 17px;
+				}
+			}
+			.pause-wrap	{
+				width: 53px;
+				height: 53px;
+				border-left: 1px solid @borders;
+				float: right;
+				position: relative;
+					button.pause {
+					position: absolute;
+					left: 15px;
+					border: 0;
+					float: right;
+					width: 27px;
+					height: 45px;
+					background-color: transparent;
+					background-image: url(../../images/sprite.png);
+					background-position: 22px -662px;
+				}
+			}
+		}
+		.under-vid-info {
+			position: relative;
+			height: 32px;
+			background-color: #fff;
+			border: 1px solid @borders;
+			p {
+				margin-top: 5px;
+				width: 118px;
+				position: relative;
+				float: left;
+				border-right: 1px solid @borders;
+				text-align: center;
+				&:before {
+					content: "";
+					position: absolute;
+					left: 5%;
+					top: 20%;
+					
+					width: 15px;
+					height: 15px;
+					
+					border-radius: 50%;
+					background-color: @main-gray;
+					background-image: url(../../images/sprite.png);
+					background-position: 39px -602px;
+				}
+				a {
+					color: @main-gray;
+					font-family: "Myriad Pro";
+					font-size: 12px;
+					font-weight: 600;
+				}
+			}
+			form {
+				float: right;
+				select {
+					position: absolute;
+					top: 20%;
+					right: 55%;
+					width: 92px;
+					height: 19px;
+					
+					border: 0;
+					background-color: transparent;
+					color: #cacaca;
+					font-family: "Myriad Pro";
+					font-size: 12px;
+					font-weight: 400;
+				}
+				button.list-wrap,
+				button.grade-wrap {
+					position: relative;
+					width: 40px;
+					height: 30px;
+					border: 0;
+					background-color: @secondary-gray;
+					&:hover {
+						background-color: @dirty-yellow;
+					}
+				}
+				.list,
+				.grade {
+					position: absolute;
+					top: 12%;
+					left: 20%;
+					width: 20px;
+					height: 20px;
+					border: 0;
+					background-color: transparent;
+					background-image: url(../../images/sprite.png);
+				}
+				.list {
+					background-position: -18px -646px;
+				}
+				.grade {
+					background-position: 2px -645px;
+				}
+			}
+		}
+	}
+	.article {
+		margin-bottom: 12px;
+		padding: 5px 5px;
+		height: 240px;
+		border: 1px solid @borders;
+		background-color: #fff;
+		.article-header {
+			margin-bottom: 10px;
+			height: 148px;
+			border: 1px solid @borders;
+			.photo {
+				margin: 5px 5px 0 5px;
+				width: 97%;
+				height: 100px;
+			}
+			.lion {
+					background-image: url(../../images/lion-pic.png);
+				}
+			.gorilla {
+				background-image: url(../../images/gorilla-pic.png);
+			}
+			.penguins {
+				background-image: url(../../images/penguins-pic.png);
+			}
+			.shark {
+				background-image: url(../../images/shark-pic.png);
+			}
+			background-color:#fbfbfb;
+			.name {
+				margin-left: 6px;
+				float: left;
+				h5 {
+					margin-bottom: 0;
+					color: #777;
+					font-family: "Myriad Pro";
+					font-size: 14px;
+					font-weight: 600;
+				}
+				p {
+					color: #a0a0a0;
+					font-family: "Myriad Pro";
+					font-size: 11px;
+					font-weight: 400;
+				}
+			}
+			.rating {
+				margin-top: 10px;
+				float: right;
+				.stars {
+					width: 74px;
+					height: 13px;
+					background-image: url(../../images/5-stars.png);
+				}
+				p {
+					color: #a0a0a0;
+					font-family: "Myriad Pro";
+					font-size: 11px;
+					font-weight: 400;
+				}
+				
+			}
+		}
+		p {
+			color: #989898;
+			font-family: "Myriad Pro";
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 14px;
+		}
+	}
+}
